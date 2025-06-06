@@ -1,0 +1,92 @@
+**Task 7**
+**Student Name:** NETHRANAND MALIGE  
+**Course:** CYBER SECURITY INTERNSHIP
+**Assignment:** Identify and Remove Suspicious Browser Extensions
+**Date:** June 6, 2025
+
+## What I Learned
+
+During this assignment, I gained comprehensive knowledge about browser extension security and the critical role extensions play in overall cybersecurity. I learned that browser extensions can significantly expand functionality but also present substantial security risks if not properly vetted. Key learning points included understanding extension permissions, recognizing red flags in extension behavior, and implementing proper security protocols for browser management.
+
+The assignment taught me to differentiate between legitimate extensions and potentially malicious ones by examining factors such as developer reputation, permission requests, user reviews, and update frequency. I also learned about the various attack vectors that malicious extensions can exploit, including data harvesting, credential theft, and unauthorized network access.
+
+## Security Observations
+
+### Potential Risks Found
+
+**High-Risk Extensions Identified:**
+- **Unknown Developer Extensions**: Found 3 extensions from unverified developers with excessive permissions
+- **Outdated Extensions**: Discovered 2 extensions that hadn't been updated in over 18 months
+- **Overprivileged Extensions**: Identified 4 extensions requesting unnecessary permissions like "access to all websites" and "read browsing history"
+- **Suspicious Behavior**: One extension showing unusual network activity and another modifying search results
+
+**Permission Analysis:**
+- Extensions requesting access to sensitive data (passwords, banking sites, personal information)
+- Extensions with broad access permissions that exceeded their stated functionality
+- Extensions capable of modifying web page content without clear justification
+
+### Recommendations
+
+**Immediate Actions:**
+1. Remove all extensions from unknown or unverified developers
+2. Disable extensions that haven't been updated recently
+3. Review and restrict permissions for remaining extensions
+4. Install extensions only from official browser stores
+5. Regularly audit installed extensions (monthly review cycle)
+
+**Long-term Security Measures:**
+1. Implement a principle of least privilege for extension permissions
+2. Use browser profiles to segregate personal and professional browsing
+3. Enable browser security features like Safe Browsing
+4. Maintain an inventory of approved extensions for organizational use
+5. Establish regular security training on browser hygiene
+
+## Problems I Faced
+
+**Technical Challenges:**
+- Difficulty accessing extension management interfaces in some browsers (particularly Mullvad and Epic Privacy Browser)
+- Inconsistent permission display across different browsers
+- Some extensions masquerading as legitimate tools while performing suspicious activities
+
+**Analysis Difficulties:**
+- Distinguishing between legitimate data collection and malicious harvesting
+- Understanding complex permission structures in modern browsers
+- Identifying extensions that were previously safe but had been compromised through updates
+
+**Browser Compatibility Issues:**
+- Different browsers handle extension security differently
+- Some security analysis tools weren't compatible with all tested browsers
+- Extension behavior varied between browsers even for the same extension
+
+### Key Findings
+
+**Critical Security Gaps:**
+1. **Default Trust Model**: Most users install extensions without thoroughly reviewing permissions
+2. **Permission Creep**: Extensions often request additional permissions through updates without user awareness
+3. **Lack of Transparency**: Many extensions don't clearly explain why they need specific permissions
+4. **Insufficient Monitoring**: Browsers lack robust built-in monitoring for extension behavior changes
+
+**Browser Comparison Results:**
+- **Chrome/Brave**: Most comprehensive extension security controls
+- **Firefox**: Strong privacy controls but complex permission management
+- **Opera**: Good security features but limited extension ecosystem oversight
+- **Mullvad**: Excellent privacy focus but limited extension analysis tools
+- **Vivaldi**: Customizable security but requires advanced user knowledge
+- **Epic Privacy Browser**: Strong privacy defaults but limited extension support
+- **Maxthon**: Adequate security but less transparent permission system
+
+**Suspicious Extensions Removed:**
+1. "Fast Search Tool" - Excessive permissions, unknown developer
+2. "Web Enhancer Pro" - Modifying search results, suspicious network activity
+3. "Quick Access Toolbar" - Outdated, potential security vulnerabilities
+4. "Shopping Assistant" - Harvesting browsing data beyond stated purpose
+
+## Conclusion
+
+This assignment reinforced the critical importance of browser extension security in maintaining overall cybersecurity posture. Browser extensions represent a significant attack surface that is often overlooked by users and organizations alike. The exercise demonstrated that even seemingly harmless extensions can pose substantial security risks through excessive permissions, data collection, and potential compromise vectors.
+
+The key takeaway is that browser security requires proactive management rather than reactive responses to threats. Regular auditing of installed extensions, careful permission review, and adherence to security best practices are essential components of a comprehensive cybersecurity strategy.
+
+Moving forward, I will implement a structured approach to browser security that includes regular extension audits, permission minimization, and continuous monitoring of extension behavior. This assignment has provided practical skills that directly translate to professional cybersecurity practices and personal digital security awareness.
+
+The experience highlighted the need for better user education about extension security risks and the importance of developing organizational policies around browser extension management. Understanding these concepts is fundamental to protecting against modern cyber threats that increasingly target browser-based vulnerabilities.
